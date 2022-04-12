@@ -1,0 +1,137 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+.boxHeader{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgLogo{
+
+    width: 80px;
+    height: 80px;
+    margin: 15px 30px 0 0 ;
+
+}
+.boxHeader h1 {
+
+    padding: 5px;
+    margin-top: 35px;
+    font-family: 'Kalam', cursive;
+    font-size: 50px;
+
+}
+    .logoTxt2{
+
+        color: rgb(7, 124, 46);
+
+    }
+
+.stopwatch div h1 {
+
+    font-family: 'Orbitron', sans-serif;
+
+}
+.conteinerStopwatchDisplay{
+
+    display: flex;
+    justify-content: center;
+
+}
+    .conteinerStopwatchDisplay div {
+
+        border: 2px solid black;
+        padding: 50px 100px 50px 100px;
+        margin-top: 80px;
+        background-color: rgb(213, 223, 231);
+        border-radius: 5px;
+        box-shadow: 3px 5px 2px rgb(63, 63, 63);
+
+    }
+    .boxMinutes{
+
+        margin-right: 2.5px;
+
+    }
+        .boxMinutes h1{
+
+            font-size: 80px;
+
+        }
+    .boxSegunds{
+
+
+        margin-left: 2.5px;
+
+    }
+        .boxSegunds h1 {
+
+            font-size: 80px;
+
+
+        }
+
+.conteinerControllerStopwatch{
+
+    display: flex;
+    justify-content: center;
+
+}
+.conteinerControllerStopwatch button{
+
+    padding: 30px 45px 30px 45px ;
+    margin: 20px 5px 0 5px;
+    border: transparent;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+
+}
+    #btnStart{
+
+        background-color: rgb(59, 155, 59);
+        color: white;
+        
+
+    }
+    #btnStop{
+
+        background-color: rgb(224, 44, 44);
+        color: white;
+
+    }
+    #btnRestart{
+
+        background-color: rgb(151, 151, 12);
+        color: black;
+
+    }
+
+    #btnStart:hover{
+
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 1px solid black;
+        
+
+    }
+    #btnStop:hover{
+
+       
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 1px solid black;
+    }
+    #btnRestart:hover{
+
+        
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 1px solid black;
+
+    }

@@ -1,13 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/iconPage.png" type="image/x-icon">
     <title>Cronômetro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!--Google Fonts-->
+
+    <!--Fonte da Logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+
+
+    <!--Fonte dos Numeros do Cronometro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-    
+    <main>
+        <header>
+            <div class="boxHeader">
+                <img src="/img/Logo.png" alt="Logo" class="imgLogo">
+                <h1 class="logoTxt1">CRONÔMETRO</h1>
+                <h1 class="logoTxt2">EXPRESS</h1>
+            </div>
+        </header>
+        <article>
+            <section class="stopwatch">
+                <div class="conteinerStopwatchDisplay">
+                    <div class="boxMinutes">
+                        <h1 id="displayMinuts">00</h1>
+                    </div>
+                    <div class="boxSegunds">
+                        <h1 id="displaySegunds">00</h1>
+                    </div>
+                </div>
+                <div class="conteinerControllerStopwatch">
+                    <button id="btnStart">INICIAR</button>
+                    <button id="btnStop">PARAR</button>
+                    <button id="btnRestart">REINICIAR</button>
+                </div>
+            </section>
+        </article>
+    </main>
 </body>
 </html>
