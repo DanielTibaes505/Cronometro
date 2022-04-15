@@ -1,0 +1,1 @@
+window.stopwatch = new StopwatchController();
