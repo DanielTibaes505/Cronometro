@@ -4,6 +4,10 @@
     padding: 0;
 
 }
+@font-face {
+    font-family: Digital;
+    src: url(/fonts/DS-DIGI.TTF);
+}
 .boxHeader{
 
     display: flex;
@@ -32,9 +36,10 @@
 
     }
 
-.stopwatch div h1 {
+.stopwatch div p {
 
-    font-family: 'Orbitron', sans-serif;
+    font-family: Digital;
+
 
 }
 .conteinerStopwatchDisplay{
@@ -63,10 +68,9 @@
 
     .txtNumberStopewatch{
 
-        font-size: 40px;
+        font-size: 60px;
         display: flex;
         justify-content: center;
-
 
     }
   
